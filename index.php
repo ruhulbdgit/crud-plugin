@@ -1,12 +1,9 @@
 <?php
 /*
 *Plugin Name: Crud
- * Plugin Name: Simple Crud System
  * Description: A simple plugin to manage pages with CRUD and DataTables.
  * Version: 1.0
  * Author: Ruhul Siddkki
-
-
 */
 define("MY_PLUGIN_PATH", plugin_dir_path(__FILE__));
 
@@ -28,9 +25,9 @@ function my_custom_menu_page()
 }
 function callback_func_output()
 {
-    require_once MY_PLUGIN_PATH . '/views/student-list.php';
+    require_once MY_PLUGIN_PATH . '/student-list.php';
 }
 function callback_student_add()
 {
-    require_once MY_PLUGIN_PATH . '/views/student-add.php';
+    require_once MY_PLUGIN_PATH . '/student-add.php';
 }
