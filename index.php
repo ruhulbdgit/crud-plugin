@@ -28,9 +28,9 @@ function my_custom_menu_page()
 }
 function callback_func_output()
 {
-    require_once MY_PLUGIN_PATH . '/views/student-list.php';
+    require_once MY_PLUGIN_PATH . '/student-list.php';
 }
 function callback_student_add()
 {
-    require_once MY_PLUGIN_PATH . '/views/student-add.php';
+    require_once MY_PLUGIN_PATH . '/student-add.php';
 }
